@@ -1,0 +1,34 @@
+h1 {
+	color: blue;
+	font-family: monospace;
+	font-size: 80px;
+	
+}
+.center_Class {
+	text-align: center;
+	font-synthesis: initial;
+}
+
+body {
+	background-color: lightorange;
+}
+a {
+	text-decoration: none;
+	color: #4ce350;
+}
+
+#gallery_wrapper {
+	text-align: center;
+	max-width: 940px;
+	padding: 0 5%;
+	margin: 0 auto;
+}
+
+li {
+
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
