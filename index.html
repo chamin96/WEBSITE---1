@@ -11,34 +11,6 @@
 <body>
 	<div class="container-fluid">
 		<!-- Navigational bar -->
-		<nav class="navbar navbar-light" style="background-color: #5acff2;">
-			
-			<!-- LOGO -->
-			<div class="navbar-header">
-				<a href="#" class="navbar-brand">FOXPLOIT</a>
-			</div>
-
-			<!-- Menu Items -->
-			<div>
-				<ul class="nav navbar-nav">
-					<li class="nav-item active"><a href="#">Home</a></li>
-					<li><a href="Login Page/Page_1.html">Login</a></li>
-					<li><a href="About/about.html">About</a></li>
-					<li><a href="Contact/contact.html">Contact</a></li>
-
-					<!-- Dropdown menu -->
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Our Projects <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Friends</a></li>
-							<li><a href="#">Family</a></li>
-						</ul>
-					</li>
-				</ul>					
-			</div>
-		</nav>
-
-
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -64,8 +36,8 @@
 				</li>
 				</ul>
 				<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 				</form>
 			</div>
 		</nav>
@@ -109,11 +81,17 @@
 		</dl>
 
 		<div class="images">
-			<img src="Images/black_panther.jpg" class="img-responsive">
-			<img src="Images/keyboard.jpg" class="img-responsive">
-			<img src="Images/coding.jpg" class="img-responsive">
+			<img src="Images/black_panther.jpg" class="img-fluid rounded mx-auto d-block" alt="Responsive image">
+			<img src="Images/keyboard.jpg" class="img-fluid rounded mx-auto d-block" alt="Responsive image">
+			<img src="Images/coding.jpg" class="img-fluid rounded mx-auto d-block" alt="Responsive image">
 		</div>
-
+		<div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+			<div class="card-header">Mobile Application Development</div>
+			<div class="card-body">
+				<h5 class="card-title">Responsive app Design!</h5>
+				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			</div>
+			</div>
 		<footer class="text-center">
 			<a href="https://www.facebook.com/Ganindu.DJ"><img src="Images/facebook-wrap.png"></a>
 			<p>&copy; 2018 #GaninduDJ</p>
