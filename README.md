@@ -1,11 +1,11 @@
 # WEBSITE---1 [FOXPLOIT Website]
-Sample website using bootstrap and angular for the FOXPLOIT - team
+Sample website using bootstrap and angular for the **FOXPLOIT** - team
 # 
-The website template of the foxploit.com
+The website template of the **foxploit.com**
 
 ## Getting Started
 
-Go ahead and clone this repository and use your own customizations
+Go ahead and clone this repository and use your own customizations.
 
 ### Prerequisites
 
@@ -37,7 +37,7 @@ You may work with your style environment, but using Bootstrap 4 will give you st
 
 ## Deployment
 
-After completeing each individual part, give a pull-request and, your design will be checked manually.
+After completeing each individual part, give a **pull-request** and, your design will be checked manually.
 
 ## Built With
 
