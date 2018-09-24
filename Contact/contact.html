@@ -5,6 +5,39 @@
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+	<style type="text/css">
+		.contact-banner {
+			display: block;
+			text-align: center;
+			font-family: "Roboto",Arial,sans-serif;
+			padding-top: 100px;
+			padding-bottom: 50px;
+		}
+		
+		.follow {
+    		margin: 100px auto;
+    		text-align: center;
+			font-family: "Roboto",Arial,sans-serif;
+			list-style-type: none;
+		}
+		
+		.logo {
+			width: 64px;
+			height: 64px;
+			margin: 10px;
+		}
+		
+		.list-logo {
+			list-style-type: none;
+			display: inline;
+		}
+		
+		.contact-form {
+			text-align: left;
+			margin: 0 auto;
+     		max-width: 300px;
+		}
+	</style>
 	<title>Contact</title>
 </head>
 <body>
@@ -49,5 +82,42 @@
             </div>
         </nav>    
     </div>
+	<div class="contact-banner">
+		<h1>Get in touch with us</h1>
+		<p>Any question you have, please contact us to get your answer.</p>
+		<div class="contact-form">
+		<form>
+			First name:<br>
+  			<input type="text" name="firstname"><br>
+  			Last name:<br>
+  			<input type="text" name="lastname"><br><hr color="blue">
+			<input type="submit" value="Submit">
+		</form>
+		</div>
+	</div>
+	<div class="follow">
+		<h2>Follow us on</h2>
+		<ul>
+			
+			<li class="list-logo">
+				<a href="https://www.facebook.com" target="_blank">
+					<img class="logo rounded" src="../Images/seeicons__5799c4653f4f1.png" alt="facebook-logo">
+				</a>
+			</li>
+			
+			<li class="list-logo">
+				<a href="https://www.twitter.com" target="_blank">
+					<img class="logo rounded" src="../Images/seeicons__57832e17be39b.png" alt="twitter-logo">
+				</a>
+			</li>
+			
+			<li class="list-logo">
+				<a href="https://plus.google.com/" target="_blank">
+					<img class="logo rounded" src="../Images/seeicons__5783504dc2e00.png" alt="google-logo">
+				</a>
+			</li>
+			
+		</ul>
+	</div>
 </body>
 </html>
