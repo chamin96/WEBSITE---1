@@ -49,7 +49,7 @@ After completeing each individual part, give a **pull-request** and, your design
 
 ## Contributing
 
-Please read [CONTRIBUTING.md] for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/team-foxploit/Foxploit-Website/blob/dev/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -68,3 +68,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 ## Acknowledgments
 
 * Outside contributions are accepted!
+
+**@team-foxploit**
