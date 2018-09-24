@@ -49,7 +49,7 @@ After completeing each individual part, give a **pull-request** and, your design
 
 ## Contributing
 
-Please read [CONTRIBUTING.md] for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/team-foxploit/Foxploit-Website/blob/dev/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -59,14 +59,14 @@ Please read [CONTRIBUTING.md] for details on our code of conduct, and the proces
 
 * **Ganindu Dhananja** - *Main work* - [Luk3Sky](https://github.com/luk3Sky)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/team-foxploit/Foxploit-Website/graphs/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/luk3Sky/WEBSITE---1/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/team-foxploit/Foxploit-Website/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Outside contributions are accepted!
+
+**@team-foxploit**
