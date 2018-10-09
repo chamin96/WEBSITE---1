@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ******** Check meta data ******* -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navbar</title>
+    <!-- Bootstrap 4 main style -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Custom style -->
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        $(window).on('scroll', function () {
+            if($(window).scrollTop()){
+                $('nav').addClass('white');
+            }else{
+                $('nav').removeClass('white');
+            }
+        })
+    </script>
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="container-fluid clasic-tabs">
+            <div class="logo">
+                <img src="Images/FULL-LOGO_2.png" alt="FOXPLOIT-LOGO">
+            </div>
+            <ul class="tabs-cyan">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="sec1"></section>
+    <section class="sec2 container-fluid">
+        <div class="card-deck">
+			<div class="card bg-danger text-body bg-secondary mb-5 mt-5 text-center" style="max-width: 30rem; min-height: 40rem;">
+				<img class="card-img-top" src="Images/responsive-kits.jpg" alt="Card image cap">
+				<h3><div class="card-header">Responsive web Application Development</div></h3>
+				<div class="card-body ">
+					<h5 class="card-title">Responsive app Design!</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">Let's Start</a>
+				</div>
+			</div>
+			<div class="card bg-success text-dark bg-secondary mb-5 mt-5 text-center" style="max-width: 30rem; min-height: 40rem;">
+					<img class="card-img-top" src="Images/android-board.jpg" alt="Card image cap" >
+					<h3><div class="card-header">Mobile Application Development</div></h3>
+					<div class="card-body text-center mt-4">
+						<h5 class="card-title">Responsive app Design!</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+			</div>
+			<div class="card bg-info text-grey bg-secondary mb-5 mt-5 text-center" style="max-width: 30rem; min-height: 40rem;">
+					<img class="card-img-top " src="Images/learning.jpg" alt="Card image cap">
+					<h3><div class=" card-header">Machine Learning Development</div></h3>
+					<div class="card-body text-center">
+						<h5 class="card-title">Intelligent APIs!</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+			</div>
+		</div>
+    </section>
+    <section class="sec3"></section>
+    <section class="sec4"></section>
+    <section class="sec5"></section>
+</body>
+</html>

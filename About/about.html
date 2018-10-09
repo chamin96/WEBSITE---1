@@ -3,13 +3,11 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <!-- Material Design Bootstrap -->
-	<link href="../CSS/mdb.min.css" rel="stylesheet">
 	<style type="text/css">
 		.about-cover{
-			margin-top: 10px;
+			margin-top: 50px;
 			background-image: url(../Images/adult-business-businessman-1061588.jpg);
-			padding-top: 200px;
+			padding-top: 100px;
 			padding-bottom: 200px;
 			background-size: cover;
 			height: 400px;
@@ -18,6 +16,24 @@
     		background-attachment: fixed;
 			filter: grayscale(50%);
 		}
+        .view {
+            background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg") no-repeat center center;
+            background-size: cover;
+        }
+
+        .navbar {
+            background-color: transparent;
+        }
+
+        .top-nav-collapse {
+            background-color: #4285F4;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #4285F4;
+            }
+        }
 	</style>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
@@ -26,60 +42,47 @@
 </head>
 <body>
     <div class="container-fullwidth sticky-top">
+                
         <!-- Navigational bar -->
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#1996c7;">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon" data-toggle=" tooltip" title="Menu"></span>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+            <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand"><img src="../Images/FULL-LOGO_2.png" width="247.22" height="80.06666666666667"></a>
-            
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Contact/contact.html">Contact</a>
+                        <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Login Page/Page_1.html">Login</a>
+                        <a class="nav-link" href="#">Profile</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                    <div class="dropdown">
-                        <li class="btn btn-secondary dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our projects </li>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <button class="dropdown-item" type="button">Mobile App Developments</button>
-                            <button class="dropdown-item" type="button">Web Developments</button>
-                            <button class="dropdown-item" type="button">Machine Learning Developments</button>
-                        </div>
-                    </div>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
 
-		<div class="about-cover">
-	        <div style="text-align: center; height: 300px;  padding-bottom: 10px; padding-top: 10px;background-color: cornflowerblue">
-				<h1>What We Do</h1>
-				<p>Description goes here..</p>
-			</div>
-	        <div style="text-align: left; height: 300px; padding-bottom: 10px; padding-top: 10px">
-				<h1>Who We Are</h1>
-				<p>Description goes here..</p>
-			</div>
-			<div style="text-align: right; height: 200px; padding-bottom: 10px; padding-top: 10px;background-color: cornflowerblue">
-				<h1>What We Provide</h1>
-				<p>Description goes here..</p>
-			</div>
-		</div>
+        
+    
     </div>
+
+    <div class="container-fullwidth sticky">
+        <div class="about-cover"></div>
+        <div style="text-align: center; height: 400px;  padding-bottom: 10px; padding-top: 10px;background-color: cornflowerblue">
+            <h1>What We Do</h1>
+            <p>Description goes here..</p>
+        </div>
+        <div style="text-align: left; height: 300px; padding-bottom: 10px; padding-top: 10px">
+            <h1>Who We Are</h1>
+            <p>Description goes here..</p>
+        </div>
+        <div style="text-align: right; height: 400px; padding-bottom: 10px; padding-top: 10px;background-color: cornflowerblue">
+            <h1>What We Provide</h1>
+            <p>Description goes here..</p>
+        </div>
+    </div>
+    
 </body>
 </html>
